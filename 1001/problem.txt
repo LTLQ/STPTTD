@@ -1,4 +1,4 @@
-[title] 1001 ``Accordian'' Patience 
+[title] ``Accordian'' Patience 
 
 [description]
 你的任务是模拟一种叫「Accordian」的纸牌游戏，他的游戏规则如下：

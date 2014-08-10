@@ -7,5 +7,7 @@
 每组数据有输出一行输出，如果互素，输出Yes，否则输出No.
 [sample input]
 11 111
+11 1111
 [sample output]
+Yes
 No
