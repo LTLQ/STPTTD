@@ -1,0 +1,11 @@
+[title]gcd
+[descrition]
+对于两个由1组成的自然数，判断它们是否互素。
+[input]
+多组数据，每组一行，每行有两个仅由1组成的自然数a和b(1<a,b<1^1000);
+[output]
+每组数据有输出一行输出，如果互素，输出Yes，否则输出No.
+[sample input]
+11 111
+[sample output]
+No
