@@ -1,0 +1,7 @@
+digraph G {
+    rankdir=LR;
+    fontsize=10
+    
+    node[shape=box,fontsize=10]
+    head->A->B->C->NULL;
+}

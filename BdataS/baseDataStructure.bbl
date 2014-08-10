@@ -1,0 +1,65 @@
+\begin{thebibliography}{10}
+
+\bibitem{pap}
+Andrew Binstock and John Rex.
+\newblock {\em Practical Algorithms for Programmers}.
+\newblock 机械工业出版社, 2008.
+
+\bibitem{cormen2001introduction}
+Thomas~H Cormen, Charles~E Leiserson, Ronald~L Rivest, Clifford Stein, et~al.
+\newblock {\em Introduction to algorithms}, volume~2.
+\newblock MIT press Cambridge, 2001.
+
+\bibitem{donald1999art}
+E~Knuth Donald.
+\newblock The art of computer programming.
+\newblock {\em Sorting and searching}, 3:426--458, 1999.
+
+\bibitem{Galler}
+Bernard~A. Galler and Michael~J. Fisher.
+\newblock An improved equivalence algorithm.
+\newblock {\em Commun. ACM}, 7(5):301--303, May 1964.
+
+\bibitem{knuth2000dancing}
+Donald~E Knuth.
+\newblock Dancing links.
+\newblock {\em arXiv preprint cs/0011047}, 2000.
+
+\bibitem{reek1997pointers}
+Kenneth~A Reek.
+\newblock {\em Pointers on C}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., 1997.
+
+\bibitem{rich2008automata}
+Elaine Rich.
+\newblock {\em Automata, computability and complexity: theory and
+  applications}.
+\newblock Pearson Prentice Hall Upper Saddle River, 2008.
+
+\bibitem{samet2011}
+Hanan Samet and 周立柱.
+\newblock {\em 多维与度量数据结构基础}.
+\newblock 清华大学出版社, 2011.
+
+\bibitem{shaffer}
+Clifford~A Shaffer.
+\newblock {\em 数据结构与算法分析: C++ 版}.
+\newblock 电子工业出版社, 2002.
+
+\bibitem{yanweimin}
+严蔚敏 and 吴伟民.
+\newblock {\em 数据结构: C 语言版}.
+\newblock 清华大学出版社有限公司, 1997.
+
+\bibitem{liurujia}
+刘汝佳.
+\newblock {\em 算法竞赛入门经典}.
+\newblock 清华大学出版社, 2009.
+
+\bibitem{wuwenhu}
+吴文虎 and 王建德.
+\newblock {\em 世界大学生程序设计竞赛 (ACM/ICPC) 高级教程:
+  程序设计中常用的计算思维方式. 第一册}.
+\newblock 中国铁道出版社, 2009.
+
+\end{thebibliography}
