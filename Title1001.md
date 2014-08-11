@@ -1,4 +1,35 @@
 ### Stern-Brocot tree
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
 There's a beautiful way to construct the set of all nonegative fractions $m/n$ with $m\bot n$(It means gcd(m,n)=1), called the Stern-Brocot tree because it was discovered independently by Moritz Stern, a German mathematician, and Achillle Brocot, a French clockmacker. The idea is to start with the two fractions $\left( \frac { 0 }{ 1 } ,\frac { 1 }{ 0 }  \right) $ and then to repeat the following operation as many times as desired:
 $$
 Insert\ \frac { m+m' }{ n+n' }  between\ two\ adjacent\ fractions\ \frac{m}{n} \ and \ \frac{m'}{n'}.
