@@ -18,7 +18,7 @@ $$
 $$
 and then we'll get 8, 16, and so on. The entire array can be regarded as an infinite binary tree structure whose top levels look like this:
 
-![---](http://)
+![---](http://upload.wikimedia.org/wikipedia/commons/thumb/3/37/SternBrocotTree.svg/500px-SternBrocotTree.svg.png)
 
 Each fraction is $\frac{m+m'}{n+n'}$, Where $\frac{m}{n}$ is the nearest ancestor above and to the left, and $\frac{m'}{n'}$ is the nearest ancestor aboce and to rhe right. Many patterns can be observed in this tree.
 
@@ -72,7 +72,7 @@ We can obtain obtain $F_N$ in general by starting with $F_1=\frac{0}{1},\frac{1}
 This method of construction reveals that $F_N$ can be obtained in a simple way from $F_{N-1}$; We simply insert the fraction $(m+m')/N$ between consecutive fractions $m/n$, $m'/n'$ of $F_{N-1}$ whose denominators sum to N. For example, it's easy to obtain $F_7$ from the elements of $F_6$, by inserting $\frac{1}{7},\frac{2}{7},\cdots , \frac{6}{7}$ to the state rule:
 <small>
 $$
-F_7=\frac{0}{1},\frac{1}{7},\frac{1}{6},\frac{1}{5},\frac{1}{4},\frac{2}{7},\frac{1}{3},\frac{2}{5},\frac{3}{7},\frac{1}{2},\frac{4}{7},\frac{3}{5},\frac{2}{3},\frac{5}{7},\frac{3}{4},\frac{4}{5}\frac{5}{6},\frac{6}{7},\frac{1}{1}.
+F_7=\frac{0}{1},\frac{1}{7},\frac{1}{6},\frac{1}{5},\frac{1}{4},\frac{2}{7},\frac{1}{3},\frac{2}{5},\frac{3}{7},\frac{1}{2},\frac{4}{7},\frac{3}{5},\frac{2}{3},\frac{5}{7},\frac{3}{4},\frac{4}{5},\frac{5}{6},\frac{6}{7},\frac{1}{1}.
 $$
 </small>
 
@@ -83,7 +83,7 @@ Well, actually there's a slught problem: The fraction $\frac{1}{1}$ corresponds 
 
 This representation raises two natural questions: (1) Given positive integers m and n with $m\bot n$, what is the string of L's and R's that corresponds to $m/n$? (2) Given a string of L's ans R's, what  fraction corresponds to it? Question 2 seems easier, so let's work on it first. We define
 $$
-f(S)=fraction corresponding to S
+f(S)=fraction\ corresponding\  to\ S
 $$
 When S is a string of L's ans R's. For example, $f(LRRL)=\frac{5}{7}$.
 
@@ -155,3 +155,4 @@ in the simplified algorithm.
 $$
 e=RL^0RLR^2LRL^4RLR^6LRL^8RLR^{10}LRL^{12}RL\cdots;
 $$
+
